@@ -26,3 +26,7 @@ plt.show()
 # randint 랜덤한 정수만 출력  low 값 high 값 size
 arr4 = np.random.randint(low = 1, high = 5, size = (3, 4))
 plt.hist(arr4)
+
+arr5 = np.random.randint(100, 200, 1000)
+plt.hist(arr5, bins = 100)
+plt.show()
